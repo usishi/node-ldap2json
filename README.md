@@ -1,6 +1,5 @@
 #node-ldap2json [![Build Status](https://secure.travis-ci.org/usishi/node-ldap2json.png)](http://travis-ci.org/usishi/node-ldap2json)
 ==============
-
 LDAP2JSON makes a json return from LDAP Tree
 
 ## Usage : 

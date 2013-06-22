@@ -5,7 +5,7 @@ var getTreeOptions = {
   host : '10.1.60.5',
   username : 'bh\\Administrator',
   password : 'Genel1234',
-  base : 'ou=Bayiler,dc=bh,dc=pvt' 
+  base : 'dc=bh,dc=pvt' 
 }
 
 ldap2json.getJson(getTreeOptions,function(e,tree){
