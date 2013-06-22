@@ -1,0 +1,31 @@
+{
+  "name": "node-ldap2json",
+  "version": "0.0.1",
+  "description": "LDAP2JSON makes a json return from LDAP Tree",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/testme.js" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/usishi/node-ldap2json.git"
+  },
+  "keywords": [
+    "ldapjs",
+    "ldap",
+    "active",
+    "directory",
+    "node.js",
+    "json"
+  ],
+  "author": "USISHI ICT",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "97c7f3b04a87e07e04614dcca88a4e9e7e5deee7",
+  "bugs": {
+    "url": "https://github.com/usishi/node-ldap2json/issues"
+  }
+  ,"dependencies": {
+    "ldapjs":"*"
+  }
+}

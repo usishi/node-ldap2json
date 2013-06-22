@@ -1,4 +1,12 @@
+.DS_Store
+
+
+node_modules
+pids
+logs
+results
 lib-cov
+
 *.seed
 *.log
 *.csv
@@ -7,8 +15,6 @@ lib-cov
 *.pid
 *.gz
 
-pids
-logs
-results
-
 npm-debug.log
+*.sublime-*
+*.sublime-*
