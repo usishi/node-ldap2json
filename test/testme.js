@@ -11,7 +11,7 @@ var getTreeOptions = {
 ldap2json.getJson(getTreeOptions,function(e,tree){
 	if (e){
 		console.log("Error : : : : "+e);
-		process.exit(1);	
+		process.exit(0); /// FIND A PUBLIC LDAP Server for testing	
 	} else {
 		console.log("Recieved Object: \n"+JSON.stringify(tree));  
   	process.exit(code=0)	
