@@ -1,6 +1,4 @@
-var 
-assert = require('assert'),
-ldap2json = require('../lib/ldap2json');
+var ldap2json = require('../lib/ldap2json');
 
 
 var getTreeOptions = {
@@ -13,7 +11,7 @@ var getTreeOptions = {
 ldap2json.getJson(getTreeOptions,function(e,tree){
 	if (e){
 		console.log("Error : : : : "+e);
-		process.exit(code=e.code);	
+		process.exit(1);	
 	} else {
 		console.log("Recieved Object: \n"+JSON.stringify(tree));  
   	process.exit(code=0)	

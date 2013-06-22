@@ -6,6 +6,10 @@ LDAP2JSON makes a json return from LDAP Tree
 ## Usage : 
 
 ``` js
+
+  var ldap2json = require('ldap2json');
+
+
 	var getTreeOptions = {
 	  host : '10.1.60.5',
 	  username : 'bh\\Administrator',
@@ -18,7 +22,7 @@ LDAP2JSON makes a json return from LDAP Tree
 			console.log("Error : : : : "+e);
 			process.exit(code=e.code);	
 		} else {
-			console.log("Recieved Object: \n"+JSON.stringify(tree));  
+			console.log("Recieved Object: \n"+JSON.stringify(tree));
 	  	process.exit(code=0)	
 		}
 	})
