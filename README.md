@@ -7,7 +7,7 @@ LDAP2JSON makes a json return from LDAP Tree
 
 ``` js
 
-  var ldap2json = require('ldap2json');
+  var ldap2json = require('node-ldap2json');
 
 
 	var getTreeOptions = {
@@ -28,3 +28,8 @@ LDAP2JSON makes a json return from LDAP Tree
 	})
 
 ```
+
+
+## Installation
+
+    npm install node-ldap2json
