@@ -28,4 +28,7 @@
   ,"dependencies": {
     "ldapjs":"*"
   }
+  ,"devDependencies": {
+    "vows": "0.6.x"
+  }
 }
