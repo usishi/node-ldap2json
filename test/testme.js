@@ -21,6 +21,8 @@ vows.describe('ldap2json').addBatch({
       },
       'callback':function(e,usr){
       	assert.ifError(e);
+        console.log('OK');
+        console.log(usr);
 			}
     },
     'Get Domain Tree' : {
@@ -29,6 +31,7 @@ vows.describe('ldap2json').addBatch({
     	},
     	'callback':function(e,tree){
     		assert.ifError(e);
+        console.log(tree);
     	}
     },
     'Get Security Groups' : {
@@ -37,6 +40,7 @@ vows.describe('ldap2json').addBatch({
     	},
     	'callback':function(e,groups){
     		assert.ifError(e);
+        console.log(groups);
     	}
     }
 }).export(module);
