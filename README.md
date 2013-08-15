@@ -2,6 +2,8 @@
 ==============
 LDAP2JSON makes a json return from LDAP Tree
 
+[![NPM](https://nodei.co/npm/node-ldap2json.png?downloads=true)](https://nodei.co/npm/node-ldap2json/)
+
 ## Usage : 
 
 ``` js
