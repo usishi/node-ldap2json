@@ -1,8 +1,11 @@
 #node-ldap2json [![Build Status](https://secure.travis-ci.org/usishi/node-ldap2json.png)](http://travis-ci.org/usishi/node-ldap2json)
 ==============
-LDAP2JSON makes a json return from LDAP Tree
 
 [![NPM](https://nodei.co/npm/node-ldap2json.png?downloads=true)](https://nodei.co/npm/node-ldap2json/)
+
+LDAP2JSON makes shortcuts LDAP.JS
+
+
 
 ## Usage : 
 
@@ -18,6 +21,8 @@ LDAP2JSON makes a json return from LDAP Tree
 	  base : 'ou=Customers,dc=bh,dc=pvt' 
 	}
 
+	//GetAD Tree
+
 	ldap2json.getJson(getTreeOptions,function(e,tree){
 		if (e){
 			console.log("Error : : : : "+e);
@@ -27,6 +32,19 @@ LDAP2JSON makes a json return from LDAP Tree
 	  	process.exit(code=0)	
 		}
 	})
+
+
+	//CheckUser
+    
+  ldap2json.checkUser(getTreeOptions,'serkan','1',function(e,usr){
+  	...  
+  });
+
+  //Search Users
+
+	ldap2json.searchUser(getTreeOptions,'keyword',function(e,items){
+	  ...
+	});
 
 ```
 
