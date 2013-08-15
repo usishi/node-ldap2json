@@ -1,10 +1,10 @@
 {
   "name": "node-ldap2json",
-  "version": "0.0.5",
-  "description": "LDAP2JSON makes a json return from LDAP Tree",
+  "version": "0.0.7",
+  "description": "LDAP2JSON makes shortcuts LDAP.JS",
   "main": "index.js",
   "scripts": {
-    "test": "vows ./test/*.js" 
+    "test": "mocha -R spec" 
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,7 @@
     "ldapjs":"*"
   }
   ,"devDependencies": {
-    "vows": "0.7.x"
+    "should" : "*",
+    "mocha" : "*"
   }
 }
