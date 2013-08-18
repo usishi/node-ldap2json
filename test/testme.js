@@ -1,6 +1,5 @@
 var 
 	ldap2json = require('../lib/ldap2json')
-	,vows 		= require('vows')
 	,assert   = require('assert')
   ,should  = require('should')
 	;
