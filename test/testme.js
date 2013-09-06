@@ -24,7 +24,7 @@ describe('Ldap2Json',function(){
   this.timeout(50000);
   describe('CheckUser',function(){
     it('returns a user',function(done){
-      ldap2json.checkUser(testVariables.TreeOptions,'serkan','1',function(e,usr){
+      ldap2json.checkUser(testVariables.TreeOptions,testVariables.testuser,testVariables.testuserpass,function(e,usr){
         usr.should.be.object;
         done();
       });
