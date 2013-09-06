@@ -30,26 +30,32 @@ describe('Ldap2Json',function(){
       });
     });
   });
-  describe('Get Domain Tree',function(){
-    it('returns an array',function(done){
-      ldap2json.getJson(testVariables.TreeOptions,function(e,tree){
-        tree.should.be.object;
-        done();
-      });
-    });
-  });
-  describe('Get Security Groups',function(){
+    describe('Get Security Groups',function(){
     it('returns an array',function(done){
       ldap2json.getSecurityGroups(testVariables.TreeOptions,function(e,grps){
         grps.should.be.object;
+        grps.length.should.be.above(10);
+        console.log(grps.length);
         done();
       });
     });
   });
+  describe('Get Domain Tree',function(){
+    it('returns a tree with items',function(done){
+      ldap2json.getJson(testVariables.TreeOptions,function(e,tree){
+        tree.should.be.object;
+        tree.items.length.should.be.above(1);
+        console.log(tree.items.length);
+        done();
+      });
+    });
+  });
+
   describe('Search Users',function(){
     it('returns an array',function(done){
       ldap2json.searchUser(testVariables.TreeOptions,testVariables.searchkeyword,function(e,items){
         items.should.be.object;
+        items.length.should.be.above(0);
         done();
       });
     });
