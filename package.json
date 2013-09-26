@@ -18,7 +18,10 @@
     "node.js",
     "json"
   ],
-  "author": "USISHI ICT",
+  "author": "USISHI ICT <info@usishi.com>",
+  "maintainers": [
+    "Fatih Soydan <fatihsoydan@fatihsoydan.com>"
+  ],
   "license": "BSD",
   "readmeFilename": "README.md",
   "gitHead": "97c7f3b04a87e07e04614dcca88a4e9e7e5deee7",
@@ -26,7 +29,7 @@
     "url": "https://github.com/usishi/node-ldap2json/issues"
   }
   ,"dependencies": {
-    "ldapjs":"*"
+    "ldapjs":"0.6.3"
   }
   ,"devDependencies": {
     "should" : "*",
