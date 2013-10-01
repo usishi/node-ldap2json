@@ -10,6 +10,9 @@ LDAP2JSON makes shortcuts LDAP.JS
 Test fails, 
 because of need an online ldap server for testing.
 
+But used on that production suite :
+over 20.000 users, 4000 ou, 1000 security group
+
 ## Usage : 
 
 ``` js
