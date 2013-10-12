@@ -29,7 +29,7 @@
     "url": "https://github.com/usishi/node-ldap2json/issues"
   }
   ,"dependencies": {
-    "ldapjs":"0.6.3"
+    "ldapjs":"git+https://github.com/fatihsoydan/node-ldapjs.git"
   }
   ,"devDependencies": {
     "should" : "*",
