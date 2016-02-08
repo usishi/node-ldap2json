@@ -9,14 +9,14 @@ var testVariables = {
 
   TreeOptions : {
     host : '192.168.11.100',
-    adminuser : 'usishi\\Administrator',
-    adminpass : '1',
+    adminuser : 'usishi\\fatih',
+    adminpass : 'Ofelya2011',
     base : 'dc=usishi,dc=pvt' 
   },
   testuser:'fatih',
-  testuserpass : '1',
+  testuserpass : 'Ofelya2011',
   searchkeyword : 'gök',
-  searchguid : 'ed386d41-2888-4333-bd10-de6d2dcb193a'
+  searchguid : 'a8269929-a0cd-41c5-a3cb-1c566506f2d2'
 }
 
 //<GUID=ed386d41-2888-4333-bd10-de6d2dcb193a>
@@ -61,6 +61,7 @@ describe('Ldap2Json',function(){
         if (e) throw e;
         items.should.be.object;
         items.length.should.be.above(0);
+        console.log(items.length);
         done();
       });
     });
