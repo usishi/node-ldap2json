@@ -22,9 +22,9 @@ over 20.000 users, 4000 ou, 1000 security group
 
 	var treeOptions = {
 	  host : '10.1.60.5',
-	  username : 'bh\\Administrator',
-	  password : 'Public1234',
-	  base : 'ou=Customers,dc=bh,dc=pvt' 
+	  uname : 'bh\\Administrator',
+	  pwd : 'Public1234',
+	  domain : 'usishi.pvt' 
 	}
 
 	
