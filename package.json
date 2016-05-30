@@ -1,6 +1,6 @@
 {
   "name": "node-ldap2json",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "LDAP2JSON makes shortcuts LDAP.JS",
   "main": "index.js",
   "scripts": {
