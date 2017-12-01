@@ -4,7 +4,7 @@
   "description": "LDAP2JSON makes shortcuts LDAP.JS",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -R spec" 
+    "test": "mocha -R spec"
   },
   "repository": {
     "type": "git",
@@ -27,12 +27,12 @@
   "gitHead": "97c7f3b04a87e07e04614dcca88a4e9e7e5deee7",
   "bugs": {
     "url": "https://github.com/usishi/node-ldap2json/issues"
-  }
-  ,"dependencies": {
-    "ldapjs":"git+https://github.com/fatihsoydan/node-ldapjs.git"
-  }
-  ,"devDependencies": {
-    "should" : "*",
-    "mocha" : "*"
+  },
+  "dependencies": {
+    "ldapjs": "git+https://github.com/fatihsoydan/node-ldapjs.git"
+  },
+  "devDependencies": {
+    "should": "*",
+    "mocha": "*"
   }
 }
