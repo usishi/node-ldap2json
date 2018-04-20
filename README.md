@@ -47,6 +47,16 @@ over 20.000 users, 4000 ou, 1000 security group
   ldap2json.getSecurityGroups(treeOptions,function(e,grps){
     ...
   });  
+  
+  //Get Users In Groups
+  ldap2json.getUsersInGroups(treeOptions,group,function(e,users){
+    ...
+  });  
+  
+  //Search In Security Groups
+  ldap2json.searchInSGroups(treeOptions,keyword,function(e,users){
+    ...
+  });  
 
 ```
 
